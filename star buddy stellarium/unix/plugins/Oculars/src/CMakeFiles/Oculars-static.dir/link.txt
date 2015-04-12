@@ -1,0 +1,2 @@
+/usr/bin/ar cr libOculars.a  CMakeFiles/Oculars-static.dir/CCD.cpp.o CMakeFiles/Oculars-static.dir/Lens.cpp.o CMakeFiles/Oculars-static.dir/Ocular.cpp.o CMakeFiles/Oculars-static.dir/Oculars.cpp.o CMakeFiles/Oculars-static.dir/Telescope.cpp.o CMakeFiles/Oculars-static.dir/gui/OcularDialog.cpp.o CMakeFiles/Oculars-static.dir/gui/PropertyBasedTableModel.cpp.o CMakeFiles/Oculars-static.dir/gui/OcularsGuiPanel.cpp.o CMakeFiles/Oculars-static.dir/qrc_Oculars.cpp.o CMakeFiles/Oculars-static.dir/Oculars-static_automoc.cpp.o
+/usr/bin/ranlib libOculars.a

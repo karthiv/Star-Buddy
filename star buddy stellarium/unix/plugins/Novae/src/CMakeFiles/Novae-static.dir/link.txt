@@ -1,0 +1,2 @@
+/usr/bin/ar cr libNovae.a  CMakeFiles/Novae-static.dir/Novae.cpp.o CMakeFiles/Novae-static.dir/Nova.cpp.o CMakeFiles/Novae-static.dir/gui/NovaeDialog.cpp.o CMakeFiles/Novae-static.dir/qrc_Novae.cpp.o CMakeFiles/Novae-static.dir/Novae-static_automoc.cpp.o
+/usr/bin/ranlib libNovae.a

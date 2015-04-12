@@ -1,0 +1,2 @@
+/usr/bin/ar cr libSolarSystemEditor.a  CMakeFiles/SolarSystemEditor-static.dir/SolarSystemEditor.cpp.o CMakeFiles/SolarSystemEditor-static.dir/gui/SolarSystemManagerWindow.cpp.o CMakeFiles/SolarSystemEditor-static.dir/gui/MpcImportWindow.cpp.o CMakeFiles/SolarSystemEditor-static.dir/gui/ManualImportWindow.cpp.o CMakeFiles/SolarSystemEditor-static.dir/SolarSystemEditor-static_automoc.cpp.o
+/usr/bin/ranlib libSolarSystemEditor.a

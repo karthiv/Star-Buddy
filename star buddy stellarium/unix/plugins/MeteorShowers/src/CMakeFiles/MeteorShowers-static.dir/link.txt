@@ -1,0 +1,2 @@
+/usr/bin/ar cr libMeteorShowers.a  CMakeFiles/MeteorShowers-static.dir/MeteorShower.cpp.o CMakeFiles/MeteorShowers-static.dir/MeteorShowers.cpp.o CMakeFiles/MeteorShowers-static.dir/MeteorStream.cpp.o CMakeFiles/MeteorShowers-static.dir/gui/MeteorShowerDialog.cpp.o CMakeFiles/MeteorShowers-static.dir/qrc_MeteorShower.cpp.o CMakeFiles/MeteorShowers-static.dir/MeteorShowers-static_automoc.cpp.o
+/usr/bin/ranlib libMeteorShowers.a

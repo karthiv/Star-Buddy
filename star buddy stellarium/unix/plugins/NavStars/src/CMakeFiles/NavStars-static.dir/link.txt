@@ -1,0 +1,2 @@
+/usr/bin/ar cr libNavStars.a  CMakeFiles/NavStars-static.dir/NavStars.cpp.o CMakeFiles/NavStars-static.dir/qrc_NavStars.cpp.o CMakeFiles/NavStars-static.dir/NavStars-static_automoc.cpp.o
+/usr/bin/ranlib libNavStars.a

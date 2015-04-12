@@ -1,0 +1,2 @@
+/usr/bin/ar cr libFOV.a  CMakeFiles/FOV-static.dir/FOV.cpp.o CMakeFiles/FOV-static.dir/gui/FOVWindow.cpp.o CMakeFiles/FOV-static.dir/FOV-static_automoc.cpp.o
+/usr/bin/ranlib libFOV.a

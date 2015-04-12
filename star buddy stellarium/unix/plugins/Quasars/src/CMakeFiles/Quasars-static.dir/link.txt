@@ -1,0 +1,2 @@
+/usr/bin/ar cr libQuasars.a  CMakeFiles/Quasars-static.dir/Quasars.cpp.o CMakeFiles/Quasars-static.dir/Quasar.cpp.o CMakeFiles/Quasars-static.dir/gui/QuasarsDialog.cpp.o CMakeFiles/Quasars-static.dir/qrc_Quasars.cpp.o CMakeFiles/Quasars-static.dir/Quasars-static_automoc.cpp.o
+/usr/bin/ranlib libQuasars.a

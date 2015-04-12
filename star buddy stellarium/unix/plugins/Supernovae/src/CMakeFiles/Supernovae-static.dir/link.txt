@@ -1,0 +1,2 @@
+/usr/bin/ar cr libSupernovae.a  CMakeFiles/Supernovae-static.dir/Supernovae.cpp.o CMakeFiles/Supernovae-static.dir/Supernova.cpp.o CMakeFiles/Supernovae-static.dir/gui/SupernovaeDialog.cpp.o CMakeFiles/Supernovae-static.dir/qrc_Supernovae.cpp.o CMakeFiles/Supernovae-static.dir/Supernovae-static_automoc.cpp.o
+/usr/bin/ranlib libSupernovae.a

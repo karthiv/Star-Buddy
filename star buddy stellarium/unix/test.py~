@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+
+def readFile():
+	
+		with open ("data.txt") as myfile:
+    			lines=myfile.read().split('\n')
+			a=lines[0]
+			b=lines[1]
+			c=lines[2]		
+			print lines[0]
+			print lines[1]
+			print lines[2]		
+			t.goto(a,b,c)
+		
+		
+			
+readFile()
+#t.goto("19h50m47s", "8º52'07''", "22h06m11s")
+#t.goto("18h03m48s", "-24º23'00''", "22h06m52s")
+#t.goto("13h17m55s", "-8º29'04''", "22h07m51s")

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libPointerCoordinates.a  CMakeFiles/PointerCoordinates-static.dir/PointerCoordinates.cpp.o CMakeFiles/PointerCoordinates-static.dir/gui/PointerCoordinatesWindow.cpp.o CMakeFiles/PointerCoordinates-static.dir/qrc_PointerCoordinates.cpp.o CMakeFiles/PointerCoordinates-static.dir/PointerCoordinates-static_automoc.cpp.o
+/usr/bin/ranlib libPointerCoordinates.a
