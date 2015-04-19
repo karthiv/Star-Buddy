@@ -1,0 +1,2 @@
+/usr/bin/ar cr libPulsars.a  CMakeFiles/Pulsars-static.dir/Pulsars.cpp.o CMakeFiles/Pulsars-static.dir/Pulsar.cpp.o CMakeFiles/Pulsars-static.dir/gui/PulsarsDialog.cpp.o CMakeFiles/Pulsars-static.dir/qrc_Pulsars.cpp.o CMakeFiles/Pulsars-static.dir/Pulsars-static_automoc.cpp.o
+/usr/bin/ranlib libPulsars.a

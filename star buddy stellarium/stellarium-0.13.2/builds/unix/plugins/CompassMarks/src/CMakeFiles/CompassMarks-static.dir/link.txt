@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCompassMarks.a  CMakeFiles/CompassMarks-static.dir/CompassMarks.cpp.o CMakeFiles/CompassMarks-static.dir/qrc_CompassMarks.cpp.o CMakeFiles/CompassMarks-static.dir/CompassMarks-static_automoc.cpp.o
+/usr/bin/ranlib libCompassMarks.a

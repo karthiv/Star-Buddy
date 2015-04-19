@@ -1,0 +1,2 @@
+/usr/bin/ar cr libExoplanets.a  CMakeFiles/Exoplanets-static.dir/Exoplanets.cpp.o CMakeFiles/Exoplanets-static.dir/Exoplanet.cpp.o CMakeFiles/Exoplanets-static.dir/gui/ExoplanetsDialog.cpp.o CMakeFiles/Exoplanets-static.dir/qrc_Exoplanets.cpp.o CMakeFiles/Exoplanets-static.dir/Exoplanets-static_automoc.cpp.o
+/usr/bin/ranlib libExoplanets.a

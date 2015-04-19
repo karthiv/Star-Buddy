@@ -1,0 +1,166 @@
+ #include<Servo.h>
+
+int index1=0;
+int index2=0;
+const int MaxChars=25;
+char strValues[MaxChars+1];
+int Array[25];
+char WasteArray[25];
+int count=1;
+int i =0,j,k;  
+//char str;
+//----Servo config-----
+Servo myServoX1,myServoX2, myServoY,myLaser;
+String servo1,servo2;
+int xMin=40,xMax=120;
+int yMin=60,yMax=100;
+float sX=50,sY=1;
+//float sX=84,sY=99;
+
+float n1,n2;
+char x[10],y[10];
+int waste=0;
+ float n,m;
+char ch;
+char one[4],two[4];
+int oneflag=1;
+String str;//="(123,789)";
+int len=0;
+void setup(){
+  Serial.begin(9600);
+  myLaser.attach(12);    //attach Laser to pin 12
+  myServoX1.attach(11);  //attach Base motor to pin 11
+  myServoX2.attach(10);  //attach Middle motor to pin 10
+  myServoY.attach(9);    //attach top motor to pin 9
+  
+  
+ 
+  
+}
+void loop(){
+  while(Serial.available()){
+    
+    delay(500);
+    if(Serial.available()>0){ 
+      
+      char ch=Serial.read();
+      str+=ch;
+      if(ch==')'){
+        calcCoordinates(str);
+        str="";
+        
+        }  
+      }
+    }
+    delay(100);
+  }
+  void calcCoordinates(String str){
+    char ch;
+    for(int j=0;j<str.length();j++){
+      ch=str[j];
+      Serial.println("please wait... caliberating..");
+      if(oneflag){
+if(ch==','){
+             one[i]=0;
+     oneflag=0;
+     i=0;
+}
+                else if(ch!='('){
+                                 one[i++]=ch;
+                  }
+        }
+else{
+   if(ch==')'){
+                              two[i]=0;
+                      oneflag=1;
+i=0;
+                                str="";
+}
+           else if(ch!=' '){
+               	two[i++]=ch;
+           }
+}
+        
+}
+   n1=(atoi(one));
+   n2=(atoi(two));
+  Serial.println(atoi(one));
+ Serial.println(atoi(two));
+
+      
+      float n1 =atoi(one);  
+      float n2 =atoi(two);
+      //int n3;
+      Serial.println("the numbers are:");
+      Serial.println(n1);
+      Serial.println(n2);
+     
+      float i,j;
+      int no=2;
+      int nX1,nX2,nY;
+      if(n1>180){
+         nX1=180;
+         nX2=180-(360-n1);
+          nY=n2;
+         myLaser.attach(8);
+         for(i=1;i<=nX1;i+=1){
+           myServoX1.write(i);
+          delay(10);
+          if(i==n1){
+          
+              break;  
+          }
+        
+        }
+        for(j=1;j<=nX2;j++){
+          myServoX2.write(j);
+          delay(100);
+        }
+        for(k=1;k<=n2;k++){
+         myServoY.write(k); 
+         delay(100);
+        }
+      }else{
+        nX1=n1;
+        nY=n2;
+        for(i=1;i<=nX1;i++){
+         myServoX2.write(i); 
+         delay(100);
+        }
+        for(j=1;j<=nY;j++){
+          myServoY.write(j);
+         delay(100); 
+        }
+        
+      }
+      
+  //    Serial.println(n1);
+      //myservo1.write(n);
+      //delay(100);
+      for(j=1;j<=n2;j+=1){
+        sY=sY+1;
+        //if(j>=(m/2)+2){
+            //myServoL.attach(8);
+            digitalWrite(8,HIGH);
+             delay(100);
+        //}
+        myServoY.write(sY);
+         
+        delay(10);
+        if(j==n2){
+//          myServoL.attach(8);
+          digitalWrite(8,HIGH);
+          delay(60000);
+          myLaser.detach();
+          
+          digitalWrite(8, HIGH);
+         
+          delay(60000);
+           break;
+           
+        }
+      }
+     delay(100);
+    }
+	
+

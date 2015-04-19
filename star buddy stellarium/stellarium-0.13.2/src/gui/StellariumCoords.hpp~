@@ -1,0 +1,11 @@
+#ifndef GLOBALS_H
+#define GLOBALS_H
+
+QT_BEGIN_NAMESPACE
+class QString;
+QT_END_NAMESPACE
+
+
+extern QString global_coords;
+
+#endif

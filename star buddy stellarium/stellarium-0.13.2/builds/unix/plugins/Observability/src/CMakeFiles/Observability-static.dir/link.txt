@@ -1,0 +1,2 @@
+/usr/bin/ar cr libObservability.a  CMakeFiles/Observability-static.dir/Observability.cpp.o CMakeFiles/Observability-static.dir/gui/ObservabilityDialog.cpp.o CMakeFiles/Observability-static.dir/qrc_Observability.cpp.o CMakeFiles/Observability-static.dir/Observability-static_automoc.cpp.o
+/usr/bin/ranlib libObservability.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libEquationOfTime.a  CMakeFiles/EquationOfTime-static.dir/EquationOfTime.cpp.o CMakeFiles/EquationOfTime-static.dir/gui/EquationOfTimeWindow.cpp.o CMakeFiles/EquationOfTime-static.dir/qrc_EquationOfTime.cpp.o CMakeFiles/EquationOfTime-static.dir/EquationOfTime-static_automoc.cpp.o
+/usr/bin/ranlib libEquationOfTime.a

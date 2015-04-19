@@ -1,0 +1,2 @@
+/usr/bin/ar cr libAngleMeasure.a  CMakeFiles/AngleMeasure-static.dir/AngleMeasure.cpp.o CMakeFiles/AngleMeasure-static.dir/gui/AngleMeasureDialog.cpp.o CMakeFiles/AngleMeasure-static.dir/qrc_AngleMeasure.cpp.o CMakeFiles/AngleMeasure-static.dir/AngleMeasure-static_automoc.cpp.o
+/usr/bin/ranlib libAngleMeasure.a

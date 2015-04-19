@@ -1,0 +1,2 @@
+/usr/bin/ar cr libTimeZoneConfiguration.a  CMakeFiles/TimeZoneConfiguration-static.dir/TimeZoneConfiguration.cpp.o CMakeFiles/TimeZoneConfiguration-static.dir/gui/TimeZoneConfigurationWindow.cpp.o CMakeFiles/TimeZoneConfiguration-static.dir/gui/DefineTimeZoneWindow.cpp.o CMakeFiles/TimeZoneConfiguration-static.dir/TimeZoneConfiguration-static_automoc.cpp.o
+/usr/bin/ranlib libTimeZoneConfiguration.a

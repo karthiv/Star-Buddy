@@ -1,0 +1,5 @@
+Install stellarium from /star buddy stellarium/stellarium-0.13.2/builds using sudo make install
+Dependent package libqtextserial port -> install this from apt-get
+Do the hardware set up as per circuit diagram
+connect to PC in port ranging from ttyACM0 to 14
+Double click on each star to turn
